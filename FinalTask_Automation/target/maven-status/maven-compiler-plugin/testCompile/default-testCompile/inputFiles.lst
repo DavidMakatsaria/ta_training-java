@@ -1,0 +1,11 @@
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\base\BaseTest.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\data\CredentialsProvider.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\pages\LoginPage.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\runner\CucumberTest.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\steps\LoginSteps.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\tests\LoginTests.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\util\DriverFactory.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\util\strategy\BrowserStrategy.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\util\strategy\EdgeStrategy.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\com\epam\training\student_david_makatsaria\util\strategy\FirefoxStrategy.java
+C:\Users\79099\java-projects\FinalTask_Automation\src\test\java\SmokeTest.java
