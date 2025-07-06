@@ -17,7 +17,8 @@ public class LoginTests extends BaseTest {
         logger.info("Running UC-1: Empty Credentials Test");
         loginPage.enterUsername("anyuser");
         loginPage.enterPassword("anypass");
-        loginPage.clearFields();
+        loginPage.clearUsernameField();
+        loginPage.clearPasswordField();
         loginPage.clickLogin();
         MatcherAssert.assertThat(loginPage.getErrorMessage(), containsString("Username is required"));
     }
@@ -27,7 +28,8 @@ public class LoginTests extends BaseTest {
         logger.info("Running UC-2: Missing Password Test");
         loginPage.enterUsername("anyuser");
         loginPage.enterPassword("somepass");
-        loginPage.clearFields();
+        loginPage.clearUsernameField();
+        loginPage.clearPasswordField();
         loginPage.enterUsername("anyuser");
         loginPage.clickLogin();
         MatcherAssert.assertThat(loginPage.getErrorMessage(), containsString("Password is required"));

@@ -26,12 +26,12 @@ public class LoginSteps {
 
     @And("I clear the inputs")
     public void clearInputs() {
-        loginPage.clearFields();
+        loginPage.clearUsernameField();
     }
 
     @And("I clear the password input")
     public void clearPassword() {
-        loginPage.enterPassword("");
+        loginPage.clearPasswordField();
     }
 
     @When("I click the login button")

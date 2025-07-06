@@ -23,8 +23,11 @@ public class LoginPage {
         driver.findElement(passwordField).sendKeys(password);
     }
 
-    public void clearFields() {
+    public void clearUsernameField() {
         driver.findElement(usernameField).clear();
+    }
+
+    public void clearPasswordField() {
         driver.findElement(passwordField).clear();
     }
 
